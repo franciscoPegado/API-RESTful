@@ -16,7 +16,7 @@ public class HttpExemplo {
     public static void main(String[] args) throws Exception {
         HttpExemplo http = new HttpExemplo();
         String chamadaWS;
-        chamadaWS = "https://api.huggy.io/v2/chats/4242002/messages1";
+        chamadaWS = "https://api.huggy.io/v2/chats/4242002/messages";
         String json = http.sendGet(chamadaWS);
         //System.out.println(json);
         
